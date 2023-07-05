@@ -1,1 +1,1 @@
-export type Filter = "All" | "Active" | "Done";
+export type Filter = "Все" | "В работе" | "Готовы";

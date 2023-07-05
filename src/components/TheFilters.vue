@@ -34,7 +34,7 @@ export default defineComponent({
   },
   data(): State {
     return {
-      filters: ["All", "Active", "Done"],
+      filters: ["Все", "В работе", "Готовы"],
     };
   },
   methods: {

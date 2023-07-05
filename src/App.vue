@@ -36,17 +36,17 @@ export default defineComponent({
         { id: 1, text: "Изучить основы Typescript", completed: true },
         { id: 2, text: "Выполнить домашнее задание", completed: false },
       ],
-      activeFilter: "All",
+      activeFilter: "Все",
     };
   },
   computed: {
     filterTodos(): Todo[] {
       switch (this.activeFilter) {
-        case "Active":
+        case "В работе":
           return this.activeTodos;
-        case "Done":
+        case "Готовы":
           return this.doneTodos;
-        case "All":
+        case "Все":
         default:
           return this.todos;
       }
