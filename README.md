@@ -1,7 +1,7 @@
 # Список задач - [Demo](https://scintillating-cajeta-16abd2.netlify.app/)
 
 ```
-Vue приложение написаное на TypeScript.
+Vue приложение разработанное с использованием TypeScript.ы
 ```
 
 <br />
