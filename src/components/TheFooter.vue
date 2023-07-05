@@ -1,6 +1,6 @@
 <template>
   <footer class="app-footer">
-    Всего задач: {{ statistics.active }}, сделано:{{ statistics.done }}
+    Активных задач: {{ statistics.active }}, сделано:{{ statistics.done }}
   </footer>
 </template>
 
